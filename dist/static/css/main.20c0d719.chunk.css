@@ -1,0 +1,2 @@
+body,html{min-height:100%}body{margin:0;padding:0;font-family:sans-serif;background-image:url(/img/greenplants.jpg);background-size:cover}form{padding:20px;margin-top:60px;width:80%;background:rgba(white,.7)}form button,form h5{margin:20px 0}input[type=email]:not(.broswer-default):focus:not([readonly]),input[type=password]:not(.broswer-default):focus:not([readonly]),input[type=text]:not(.broswer-default):focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){border-color:#ec407a;box-shadow:none}
+/*# sourceMappingURL=main.20c0d719.chunk.css.map */
