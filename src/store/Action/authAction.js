@@ -18,8 +18,15 @@ export const signOut=()=>{
         const firebase=getFirebase();
 
         firebase.auth().signOut().then(()=>{
-            dispatch({type:'SIGNOUT_SUCCESS'})
+// if you got an error after loggint out and FirebaseError:Missing or insufficient permission
+//try to add firebase.logout() after firebase.auth().signOut() in the authaction
+
+            //firebase.logout(); 
+            dispatch({type:'SIGNOUT_SUCCESS'});
         })
+
+        
+        
     }
 }
 
